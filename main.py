@@ -2,9 +2,8 @@ import requests
 import time
 import pickle
 from pushbullet import Pushbullet
-
+api_key = ''
 pb = Pushbullet(api_key)  # add the api key
-
 
 def card_tracker(cards_name, target, quality):
     url = 'https://api.x.immutable.com/v1/orders?direction=asc&include_fees=true&order_by=buy_quantity&page_size=1&sell_token_address=0xacb3c6a43d15b907e8433077b6d38ae40936fe2c&sell_token_type=ERC721&status=active&sell_token_name="%s"&sell_metadata={"quality":["%s"]}&buy_token_type=ETH' % (
@@ -66,3 +65,4 @@ while True:
         quality = list_cards[i][2]
         card_tracker(cards_name, target, quality)
         time.sleep(300)  # wait 5 min
+
