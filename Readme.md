@@ -4,7 +4,7 @@ GodsUnchainedTracker is a python application that allows to be notified when a c
 
 ## Installation
 
-clone the repositorie
+clone the repository
 
 ```bash
 git clone https://github.com/MaceoBasse/GodsUnchainedTracker.git
