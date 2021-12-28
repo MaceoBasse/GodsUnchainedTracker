@@ -15,7 +15,9 @@ install dependencies
 pip3 install requests
 pip3 install pushbullet.py
 ```
-modify the Pushbullet api_key for notification
+Modify the Pushbullet api_key for notification
+
+**You can get your api key here : <https://www.pushbullet.com/#settings/account>**
 ## Usage
 
 ```bash
