@@ -9,7 +9,8 @@ clone the repository
 ```bash
 git clone https://github.com/MaceoBasse/GodsUnchainedTracker.git
 ```
-install dependecie
+install dependencies
+
 ```bash
 pip3 install requests
 pip3 install pushbullet.py
