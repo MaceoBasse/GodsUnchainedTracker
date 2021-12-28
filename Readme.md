@@ -1,6 +1,6 @@
 # GodsUnchainedTracker
 
-GodsUnchainedTracker is a Python library for dealing with word pluralization.
+GodsUnchainedTracker is a python application that allows to be notified when a card is at the set price.
 
 ## Installation
 
